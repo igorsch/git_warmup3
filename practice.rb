@@ -6,5 +6,6 @@ num_bot = proc { |n| "#{n} bottle#{n == 1 ? '' : 's'}"}
 
 while num > 0
   puts "We have #{num_bot[num]}"
+  puts "No, we don't. We have #{num_bot[num]} left."
   num -= 1
 end
